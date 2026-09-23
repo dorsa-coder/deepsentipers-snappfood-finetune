@@ -101,9 +101,3 @@ Comparing these two models across two datasets that differ substantially in clas
 ## Limitations
 - For each dataset, the two models were not run back-to-back in the same session, so minor differences in the Colab runtime environment may have contributed to the results.
 - The effect of changing the learning rate was not tested experimentally (Q4 is a theoretical prediction only).
-
-## Files
-- `tamrin1_final.ipynb` — full notebook for dataset 1 (Snappfood)
-- `finetune_sentiment_comparison.py` — condensed script for dataset 1
-- `tamrin1_deepsentipers.ipynb` — full notebook for dataset 2 (DeepSentiPers)
-- `finetune_deepsentipers_comparison.py` — condensed script for dataset 2
